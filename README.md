@@ -69,6 +69,7 @@ class GameRecord:
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
+
 ### Concept: Printing introduction 
 
 ```python
@@ -78,10 +79,11 @@ def printIntro(argument):
         # n = range value
         # argument = welcoming message
 ```
-# The name of this function will most likely be changed in the future.
-# This function will be used to introduce the game to the user when the
-# program is run, in a way that it will seem like the game is loading;
-# hence the use of a for loop.
+
+The name of this function will most likely be changed in the future.
+This function will be used to introduce the game to the user when the
+program is run, in a way that it will seem like the game is loading;
+hence the use of a for loop.
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -92,11 +94,11 @@ def draw(argument):
 
     argument.draw(window)
 ```    
-# This function is defined to draw arguments in a neat way.
-# Description: This function will be useful to make the program look
-# more organized whenever the function is called.
-# Input: an argument (object)
-# Output: Object will be drawn on the window screen
+This function is defined to draw arguments in a neat way.
+Description: This function will be useful to make the program look
+more organized whenever the function is called.
+Input: an argument (object)
+Output: Object will be drawn on the window screen
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -106,12 +108,12 @@ def draw(argument):
 def undraw(argument):
     argument.undraw()
 ```    
-# Much like the previous function, the function 'undraw' is defined to
-# remove arguments in a neat way.
-# Description: This function will be useful to make the program look
-# more organized whenever the function is called.
-# Input: an argument (object)
-# Output: Object will be removed from the window screen
+Much like the previous function, the function 'undraw' is defined to
+remove arguments in a neat way.
+Description: This function will be useful to make the program look
+more organized whenever the function is called.
+Input: an argument (object)
+Output: Object will be removed from the window screen
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -123,16 +125,16 @@ def playerX():
     exampleText = Text.... Player has chosen X
     get.mouseClicks
 ```
-# Input = This will be defined if user clicks on X
-# Output = Window will draw exampleText 
-# Description: This function will be useful to inform user of his choice.
-# After playerX is defined, program will undraw text and change the text
-# value into "Player X turn" so that it can further be used throughout the
-# game when player X has to make a move.
+Input = This will be defined if user clicks on X
+Output = Window will draw exampleText 
+Description: This function will be useful to inform user of his choice.
+After playerX is defined, program will undraw text and change the text
+value into "Player X turn" so that it can further be used throughout the
+game when player X has to make a move.
 
-# Final Input: [ playerX Clicks ] - when prompted to play
-# Final Output: Object will be removed after action is taken.
-# Function will include, but is not limited to: For or while loops if
+Final Input: [ playerX Clicks ] - when prompted to play
+Final Output: Object will be removed after action is taken.
+Function will include, but is not limited to: For or while loops if
 #necessary, and if statements when required.
 
 --------------------------------------------------------------------------
@@ -145,17 +147,17 @@ def playerO():
     exampleText = Text.... Player has chosen O
     get.mouseClicks
 ```    
-# much like function above... 
-# Input = This will be defined if user clicks on O
-# Output = Window will draw exampleText 
-# Description: This function will be useful to inform user of his choice.
-# After playerX is defined, program will undraw text and change the text
-# value into "Player O turn" so that it can further be used throughout the
-# game when player O has to make a move.
+much like function above... 
+Input = This will be defined if user clicks on O
+Output = Window will draw exampleText 
+Description: This function will be useful to inform user of his choice.
+After playerX is defined, program will undraw text and change the text
+value into "Player O turn" so that it can further be used throughout the
+game when player O has to make a move.
 
-# Final Input: [ playerO Click ] - when prompted to play
-# Final Output: Object will be removed after action is taken.
-# Function will include, but is not limited to: For or while loops if
+Final Input: [ playerO Click ] - when prompted to play
+Final Output: Object will be removed after action is taken.
+Function will include, but is not limited to: For or while loops if
 #necessary, and if statements when required.
 
 --------------------------------------------------------------------------
@@ -168,9 +170,8 @@ def Loop(n):
     for x in range(n):
         print()
 ```        
-# Function's purpose has not been defined yet. 
-# This function might be used for spaces as it might be used for something
-# else!!
+Function's purpose has not been defined yet. 
+This function might be used for spaces as it might be used for something else!!
         
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -180,8 +181,8 @@ def Loop(n):
 # STUBB! (Not finished)
 def WrongClick():
 ``` 
-# Input: Erroneous click
-# Outputs:
+Input: Erroneous click
+Outputs:
 #       - prompt user to try again message
 #       - allow user as many tries as he pleases until the right move
 #         has been made.
