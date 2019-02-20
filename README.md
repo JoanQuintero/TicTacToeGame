@@ -181,11 +181,8 @@ This function might be used for spaces as it might be used for something else!!
 # STUBB! (Not finished)
 def WrongClick():
 ``` 
-Input: Erroneous click
-Outputs:
-#       - prompt user to try again message
-#       - allow user as many tries as he pleases until the right move
-#         has been made.
+Input: Erroneous click  
+Outputs: prompt user to try again message allow user as many tries as he pleases until the right move has been made.
     
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -196,9 +193,7 @@ def ErrorMsg(argument):
     # ....
     # Input: N amount of erroneous clicks greater than 10
 ``` 
-# This function will acknowledge the fact that a player has attempted to
-# play on the wrong spot more than 10 times despite the fact of being kindly
-# prompted to make a proper choice.
+This function will acknowledge the fact that a player has attempted to play on the wrong spot more than 10 times despite the fact of being kindly prompted to make a proper choice.
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -208,10 +203,9 @@ def ErrorMsg(argument):
 # STUBB! (Not finished)
 def printResults(winPlayerX, winPlayerO):
 ``` 
-# This function will print the winner of the game on the graph window.
-# Winning row (horizontal, vertical or diagonal) will be marked with a RED line
-# The option to play again, reset game, choose X or O again, or even
-# play another player or computer will be given to the user.
+This function will print the winner of the game on the graph window.
+Winning row (horizontal, vertical or diagonal) will be marked with a RED line
+The option to play again, reset game, choose X or O again, or even play another player or computer will be given to the user.
 
 
 --------------------------------------------------------------------------
@@ -230,11 +224,11 @@ def main():
     printResults(winPlayerX, winPlayerO)
 main()
 ``` 
-# This function is basically every function of the game.
-# The game can be played calling main()
-# After main has finalized and the results are given... The game will
-# prompt the user about playing again, if he so wishes to play again,
-# the function will give the user the option to play the computer (in which
-# he is then asked for the difficulty of the computer or simply vs a player.
+This function is basically every function of the game.
+The game can be played calling main()
+After main has finalized and the results are given... The game will
+prompt the user about playing again, if he so wishes to play again,
+the function will give the user the option to play the computer (in which
+he is then asked for the difficulty of the computer or simply vs a player.
 
     
