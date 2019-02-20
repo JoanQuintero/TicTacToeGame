@@ -1,40 +1,38 @@
-# TicTacToeGame
+# TicTacToeGame #
+
+### Top-Down Design of Tic-Tac-Toe Game
+
+<ul>
+    <li>Things to note:</li>
+    <ul>
+        <li>The program will include all or almost all the functions that are in this Top-Down Design, though a number of them are not finished.</li>
+        <li>The module used for this Game is graphics.py,</li> 
+    </ul>
+</ul>
+
+Click here --> [Graphics](http://mcsp.wartburg.edu/zelle/python/graphics.py "Get Graphics!") to get the module.
 
 ```python
-def fancyAlert(arg):
-    for x in range(n):
-        print()
-        print("This NEEDS editing!")
-```
+from graphics import *  # Importing everything from the module graphics
+``` 
 
-# Top-Down Design of Tic-Tac-Toe Game
+### Feature of Top-Down Design:
 
-# Things to note:
-# - The program will include all or almost all the functions
-#   that are in this Top-Down Design, though a number of them
-#   are not finished 
+<ul>
+    <li>The program runs</li>
+    <li>Each function includes a description</li>
+    <li>Input/Output behavior is fully specified</li>
+    <li>If a function is not completed, this is clearly indicated with the word **"STUBB!!"**</li>
+    <li>Finally, the game will have a class called <em>GameRecord</em> that will interact automatically with the program of the game to record player stats while the game is running.</li>
+</u>
 
-#   Feature of Top-Down Design:
-
-# - Each function includes a description
-# - input/output behavior is fully specified
-# - The program runs
-# - If a function is not completed, this is clearly indicated
-#   with something like "STUBB!!"
-
-# ALSO!, my game will have a class called GameRecord that will interact
-# automatically with the program of the game to record player stats while
-# the game is running.
-
-
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-from graphics import * # will be used in full program
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 # Description: CLASS GameRecord. #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Overview: CLASS <em>GameRecord</em> 
+>> This is just a body style of how the body of the coding will look                 
+```python
 class GameRecord:
 
     def __init__(self, games, player, wins, losses):
@@ -66,48 +64,48 @@ class GameRecord:
         
 
         return Req
-    
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-#--------------------------------------------------------------------------#
-                # Description: Prints introduction.#
-                #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+```
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Printing introduction 
 
+```python
 def printIntro(argument):
     for i in range(n):
         
         # n = range value
         # argument = welcoming message
+```
 # The name of this function will most likely be changed in the future.
 # This function will be used to introduce the game to the user when the
 # program is run, in a way that it will seem like the game is loading;
 # hence the use of a for loop.
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-#--------------------------------------------------------------------------#
-                 # Description: Draws arguments.#
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Drawing arguments
 
+```python
 def draw(argument):
 
     argument.draw(window)
-    
+```    
 # This function is defined to draw arguments in a neat way.
 # Description: This function will be useful to make the program look
 # more organized whenever the function is called.
 # Input: an argument (object)
 # Output: Object will be drawn on the window screen
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-#--------------------------------------------------------------------------#
-                 # Description: Removes arguments.#
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Removing arguments
+            
+```python
 def undraw(argument):
     argument.undraw()
-    
+```    
 # Much like the previous function, the function 'undraw' is defined to
 # remove arguments in a neat way.
 # Description: This function will be useful to make the program look
@@ -115,17 +113,16 @@ def undraw(argument):
 # Input: an argument (object)
 # Output: Object will be removed from the window screen
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 # Description: PlayerX Entities. #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: <em>Player X</em> Entities
 
+```python
 # STUBB!(fcn not finished)
 def playerX():
     exampleText = Text.... Player has chosen X
     get.mouseClicks
-
+```
 # Input = This will be defined if user clicks on X
 # Output = Window will draw exampleText 
 # Description: This function will be useful to inform user of his choice.
@@ -138,17 +135,16 @@ def playerX():
 # Function will include, but is not limited to: For or while loops if
 #necessary, and if statements when required.
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 # Description: PlayerO Entities. #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-                 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: <em>Player O</em> Entities 
+
+```python                 
 # STUBB!(fcn not finished)
 def playerO():
     exampleText = Text.... Player has chosen O
     get.mouseClicks
-    
+```    
 # much like function above... 
 # Input = This will be defined if user clicks on O
 # Output = Window will draw exampleText 
@@ -162,68 +158,66 @@ def playerO():
 # Function will include, but is not limited to: For or while loops if
 #necessary, and if statements when required.
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 # Description: Looping Function. #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Looping Function
 
+```python
 # STUBB! (Not finished)
 def Loop(n):
-# This function might be used for spaces as it might be used for something
-# else!!
     for x in range(n):
         print()
+```        
 # Function's purpose has not been defined yet. 
+# This function might be used for spaces as it might be used for something
+# else!!
         
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 #    Description: WrongClicks.   #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: WrongClicks   
 
+```python
 # STUBB! (Not finished)
 def WrongClick():
-    # ....
-    # Input: Erroneous click
-    # Outputs:
-    #       - prompt user to try again message
-    #       - allow user as many tries as he pleases until the right move
-    #         has been made.
+``` 
+# Input: Erroneous click
+# Outputs:
+#       - prompt user to try again message
+#       - allow user as many tries as he pleases until the right move
+#         has been made.
     
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 #      Description: ErrorMsg.    #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-                 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Error handling    
+
+```python                 
 def ErrorMsg(argument):
     # ....
     # Input: N amount of erroneous clicks greater than 10
+``` 
 # This function will acknowledge the fact that a player has attempted to
 # play on the wrong spot more than 10 times despite the fact of being kindly
 # prompted to make a proper choice.
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 #   Description: Game Results.   #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-                 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Game Results 
+
+```python                 
 # STUBB! (Not finished)
 def printResults(winPlayerX, winPlayerO):
+``` 
 # This function will print the winner of the game on the graph window.
 # Winning row (horizontal, vertical or diagonal) will be marked with a RED line
 # The option to play again, reset game, choose X or O again, or even
 # play another player or computer will be given to the user.
 
 
-#--------------------------------------------------------------------------#
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~# 
-#--------------------------------------------------------------------------#
-                 #   Description: Game Results.   #
-                 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-                 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+### Concept: Main   
+
+```python                
 def main():
     printIntro()
     draw(argument)
@@ -234,6 +228,7 @@ def main():
     ErrorMsg(argument)
     printResults(winPlayerX, winPlayerO)
 main()
+``` 
 # This function is basically every function of the game.
 # The game can be played calling main()
 # After main has finalized and the results are given... The game will
