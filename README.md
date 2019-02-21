@@ -80,10 +80,8 @@ def printIntro(argument):
         # argument = welcoming message
 ```
 
-The name of this function will most likely be changed in the future.
-This function will be used to introduce the game to the user when the
-program is run, in a way that it will seem like the game is loading;
-hence the use of a for loop.
+<em>The name of this function will most likely be changed in the future.</em>
+- This function will be used to introduce the game to the user when the program is run, in a way that it will seem like the game is loading; hence the use of a for loop.
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -94,11 +92,11 @@ def draw(argument):
 
     argument.draw(window)
 ```    
-This function is defined to draw arguments in a neat way.
-Description: This function will be useful to make the program look
-more organized whenever the function is called.
-Input: an argument (object)
-Output: Object will be drawn on the window screen
+>> This function is defined to draw arguments in a neat way.
+**Description:** This function will be useful to make the program look more organized whenever the function is called.
+
+- Input: an argument (object)
+- Output: Object will be drawn on the window screen
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -108,12 +106,10 @@ Output: Object will be drawn on the window screen
 def undraw(argument):
     argument.undraw()
 ```    
-Much like the previous function, the function 'undraw' is defined to
-remove arguments in a neat way.
-Description: This function will be useful to make the program look
-more organized whenever the function is called.
-Input: an argument (object)
-Output: Object will be removed from the window screen
+>> Much like the previous function, the function 'undraw' is defined to remove arguments in a neat way.
+**Description:** This function will be useful to make the program look more organized whenever the function is called.
+- Input: an argument (object)
+- Output: Object will be removed from the window screen
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -125,17 +121,14 @@ def playerX():
     exampleText = Text.... Player has chosen X
     get.mouseClicks
 ```
-Input = This will be defined if user clicks on X
-Output = Window will draw exampleText 
-Description: This function will be useful to inform user of his choice.
-After playerX is defined, program will undraw text and change the text
-value into "Player X turn" so that it can further be used throughout the
-game when player X has to make a move.
-
-Final Input: [ playerX Clicks ] - when prompted to play
-Final Output: Object will be removed after action is taken.
-Function will include, but is not limited to: For or while loops if
-#necessary, and if statements when required.
+- Input = This will be defined if user clicks on X
+- Output = Window will draw exampleText 
+**Description:** This function will be useful to inform user of his choice.
+- After playerX is defined, program will undraw text and change the text value into "Player X turn" so that it can further be used throughout the game when player X has to make a move.  
+  
+- Final Input: [ playerX Clicks ] - when prompted to play
+- Final Output: Object will be removed after action is taken.
+- Function will include, but is not limited to: *For loops* or *while loops* if needed, and *if statements* when required.
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -147,18 +140,15 @@ def playerO():
     exampleText = Text.... Player has chosen O
     get.mouseClicks
 ```    
-much like function above... 
-Input = This will be defined if user clicks on O
-Output = Window will draw exampleText 
-Description: This function will be useful to inform user of his choice.
-After playerX is defined, program will undraw text and change the text
-value into "Player O turn" so that it can further be used throughout the
-game when player O has to make a move.
-
-Final Input: [ playerO Click ] - when prompted to play
-Final Output: Object will be removed after action is taken.
-Function will include, but is not limited to: For or while loops if
-#necessary, and if statements when required.
+>> Much like function above... 
+- Input = This will be defined if user clicks on O
+- Output = Window will draw exampleText 
+**Description:** This function will be useful to inform user of his choice.
+- After playerX is defined, program will undraw text and change the text value into "Player O turn" so that it can further be used throughout the game when player O has to make a move.  
+  
+- Final Input: [ playerO Click ] - when prompted to play
+- Final Output: Object will be removed after action is taken.
+- Function will include, but is not limited to: *For loops* or *while loops* if needed, and *if statements* when required.
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -169,9 +159,10 @@ Function will include, but is not limited to: For or while loops if
 def Loop(n):
     for x in range(n):
         print()
-```        
-Function's purpose has not been defined yet. 
-This function might be used for spaces as it might be used for something else!!
+```
+>> This function might be used for spaces as it might be used for something else!!
+**Function's purpose has not been defined yet.** 
+
         
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -181,8 +172,8 @@ This function might be used for spaces as it might be used for something else!!
 # STUBB! (Not finished)
 def WrongClick():
 ``` 
-Input: Erroneous click  
-Outputs: prompt user to try again message allow user as many tries as he pleases until the right move has been made.
+- Input: Erroneous click  
+- Outputs: prompt user to try again message allow user as many tries as he pleases until the right move has been made.
     
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -193,7 +184,7 @@ def ErrorMsg(argument):
     # ....
     # Input: N amount of erroneous clicks greater than 10
 ``` 
-This function will acknowledge the fact that a player has attempted to play on the wrong spot more than 10 times despite the fact of being kindly prompted to make a proper choice.
+>> This function will acknowledge the fact that a player has attempted to play on the wrong spot more than 10 times despite the fact of being kindly prompted to make a proper choice.
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
@@ -203,10 +194,17 @@ This function will acknowledge the fact that a player has attempted to play on t
 # STUBB! (Not finished)
 def printResults(winPlayerX, winPlayerO):
 ``` 
-This function will print the winner of the game on the graph window.
-Winning row (horizontal, vertical or diagonal) will be marked with a RED line
-The option to play again, reset game, choose X or O again, or even play another player or computer will be given to the user.
-
+>> This function will print the winner of the game on the graph window.
+<ul>
+    <li>Winning row (horizontal, vertical or diagonal) will be marked with a RED line</li>
+    <li>The option to:</li>
+    <ul>
+        <li>play again</li>
+        <li>reset game</li> 
+        <li>choose X or O again</li> 
+        <li>or even play another player or computer will be given to the user.</li>
+    </ul>
+</ul>
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
