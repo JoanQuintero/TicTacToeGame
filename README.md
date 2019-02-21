@@ -28,8 +28,7 @@ from graphics import *  # Importing everything from the module graphics
 
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
+
 ### Overview: CLASS <em>GameRecord</em> 
 >> This is just a body style of how the body of the coding will look                 
 ```python
@@ -67,8 +66,6 @@ class GameRecord:
 ```
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
---------------------------------------------------------------------------
 
 ### Concept: Printing introduction 
 
@@ -84,7 +81,6 @@ def printIntro(argument):
 - This function will be used to introduce the game to the user when the program is run, in a way that it will seem like the game is loading; hence the use of a for loop.
 
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
 ### Concept: Drawing arguments
 
 ```python
@@ -99,7 +95,6 @@ def draw(argument):
 - Output: Object will be drawn on the window screen
 
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
 ### Concept: Removing arguments
             
 ```python
@@ -111,7 +106,6 @@ def undraw(argument):
 - Input: an argument (object)
 - Output: Object will be removed from the window screen
 
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 ### Concept: <em>Player X</em> Entities
 
@@ -130,7 +124,6 @@ def playerX():
 - Final Output: Object will be removed after action is taken.
 - Function will include, but is not limited to: *For loops* or *while loops* if needed, and *if statements* when required.
 
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 ### Concept: <em>Player O</em> Entities 
 
@@ -151,7 +144,6 @@ def playerO():
 - Function will include, but is not limited to: *For loops* or *while loops* if needed, and *if statements* when required.
 
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
 ### Concept: Looping Function
 
 ```python
@@ -162,9 +154,7 @@ def Loop(n):
 ```
 >> This function might be used for spaces as it might be used for something else!!
 **Function's purpose has not been defined yet.** 
-
         
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 ### Concept: WrongClicks   
 
@@ -176,7 +166,6 @@ def WrongClick():
 - Outputs: prompt user to try again message allow user as many tries as he pleases until the right move has been made.
     
 --------------------------------------------------------------------------
---------------------------------------------------------------------------
 ### Concept: Error handling    
 
 ```python                 
@@ -186,7 +175,6 @@ def ErrorMsg(argument):
 ``` 
 >> This function will acknowledge the fact that a player has attempted to play on the wrong spot more than 10 times despite the fact of being kindly prompted to make a proper choice.
 
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 ### Concept: Game Results 
 
@@ -206,7 +194,6 @@ def printResults(winPlayerX, winPlayerO):
     </ul>
 </ul>
 
---------------------------------------------------------------------------
 --------------------------------------------------------------------------
 ### Concept: Main   
 
