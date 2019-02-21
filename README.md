@@ -152,7 +152,7 @@ def Loop(n):
     for x in range(n):
         print()
 ```
->> This function might be used for spaces as it might be used for something else!!
+>> This function might be used for spaces as it might be used for something else!!  
 **Function's purpose has not been defined yet.** 
         
 --------------------------------------------------------------------------
