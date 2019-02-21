@@ -224,11 +224,16 @@ def main():
     printResults(winPlayerX, winPlayerO)
 main()
 ``` 
-This function is basically every function of the game.
+>> This function is basically every function of the game.
+
 The game can be played calling main()
-After main has finalized and the results are given... The game will
-prompt the user about playing again, if he so wishes to play again,
+<ul>
+    <li>After main has finalized and the results are given, The game will:</li>
+        <ul>
+            <li>Prompt the user about playing again, if he so wishes to,
 the function will give the user the option to play the computer (in which
-he is then asked for the difficulty of the computer or simply vs a player.
+                he is then asked for the difficulty of playing vs the computer or simply vs a player.</li>
+    </ul>
+</ul>
 
     
